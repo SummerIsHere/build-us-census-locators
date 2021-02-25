@@ -41,25 +41,25 @@ def main():
     extract_dir_pri = os.path.join(af_dir,'pri_extract')
     
     if os.path.isdir(af_dir):
-        logging.info('Target for census file main dir exists already')
+        logging.info(af_dir +' exists already')
     else:
         logging.info("Creating folder " + af_dir)
         os.mkdir(af_dir)
     
     if os.path.isdir(dl_dir):
-        logging.info('Target for census file downloads exists already')
+        logging.info(dl_dir + ' exists already')
     else:
         logging.info("Creating folder " + dl_dir)
         os.mkdir(dl_dir)
     
     if os.path.isdir(extract_dir_usa):
-        logging.info('Target for USA census file extracts exists already')
+        logging.info(extract_dir_usa +' exists already')
     else:
         logging.info("Creating folder " + extract_dir_usa)
         os.mkdir(extract_dir_usa)
     
     if os.path.isdir(extract_dir_pri):
-        logging.info('Target for PRI census file extracts exists already')
+        logging.info(extract_dir_pri + ' extracts exists already')
     else:
         logging.info("Creating folder " + extract_dir_pri)
         os.mkdir(extract_dir_pri)
