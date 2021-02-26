@@ -5,6 +5,7 @@ Initialized: 2021-02-24
 This script will download the needed files from the US Census to create address locators.
 The technical documentation for the 2019 TIGER/Line Shapefiles says that ADDRFEAT files are the best
 source for creating geolocators.
+https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2019/TGRSHP2019_TechDoc.pdf
 
 Since internet connections and downloads can be interrupted, this script is designed to be run repeatedly until you
 get no errors and a message at the end saying you can stop running the script. You will need to keep calling this script until you get that message without any errors.
