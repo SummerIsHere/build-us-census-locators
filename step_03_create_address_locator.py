@@ -2,9 +2,10 @@
 Created by: Jingyang Chen
 Initialized: 2021-02-24
 
-Create an address locator from a table in an ArcGIS geodatabase.
+Create an address locator from Census data loaded into a table in an ArcGIS geodatabase.
 
-This script is designed to be run by copy/pasting into the Python console within ArcGIS Pro
+This script is designed to be run by copy/pasting into the Python console within ArcGIS Pro.
+
 '''
 
 import os, arcpy

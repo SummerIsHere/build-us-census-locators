@@ -6,10 +6,10 @@ This script will download the needed files from the US Census to create address 
 The technical documentation for the 2019 TIGER/Line Shapefiles says that ADDRFEAT files are the best
 source for creating geolocators.
 
-Be sure the set file paths before running. Don't end them with a backslash, since that will escape the next character.
-
 Since internet connections and downloads can be interrupted, this script is designed to be run repeatedly until you
 get no errors and a message at the end saying you can stop running the script. You will need to keep calling this script until you get that message without any errors.
+
+Be sure the set file paths before running. Don't end them with a backslash, since that will escape the next character.
 
 There is an assumption of a filename structure. Every downloaded file should start with tl_2019_XX where XX is the FIPS code of the statelike entity. In the full tl_2019_XXYYY_addrfeat.zip filename, XXYYY is the FIPS code for a county.
 
