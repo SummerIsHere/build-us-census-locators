@@ -18,12 +18,12 @@ input_dir = r"Z:\test\census_addrfeat\usa_extract"
 
 # geodb_dir is the folder containing the geodatabase. If the directory doesn't exist yet, it will create it.
 geodb_dir= r"C:\axolotl"
-geodb_filename = "not_a_salamander.gdb"
+geodb_filename = "a_salamander.gdb"
 
 # This is the name of the table that will hold the merged shapefiles in the geodatabase
 merged_tbl_name = "usa_addrfeat_megamerge"
 
-# Create the folder and geodatabaes if they don't exist
+# Create the folder and geodatabase if they don't exist
 Path(geodb_dir).mkdir(parents=True, exist_ok=True)
 geodb_path = os.path.join(geodb_dir,geodb_filename)
 if not os.path.exists(geodb_path):

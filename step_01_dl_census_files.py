@@ -150,7 +150,6 @@ def main():
             else:
                 logging.info("Unzipping " + thisFile + " to " + extract_dir_usa)
                 zip_ref.extractall(extract_dir_usa)
-        zipfile.close()
     
     logging.info("If you made it this far without errors, congratulations, you can stop running this script!")
     logging.info("ADDRFEAT files have been extracted to:")
